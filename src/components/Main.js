@@ -1,5 +1,4 @@
 import React from "react";
-import { Fade } from "react-reveal";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -15,26 +14,23 @@ function main() {
         <div className="main">
           <img src="./images/main_background2.jpg" alt="" />
           <div className="content">
-            <Fade left>
+            
               <h1>
                 Making your dream
                 <br />
                 home happen
               </h1>
-            </Fade>
-            <Fade right>
               <h6>
                 We specialize in creating personalized spaces that reflect your
                 vision, blending functionality, style, and comfort.
               </h6>
-            </Fade>
-            <Fade bottom>
+          
               <div className="">
                 <a className="touch_btn" href="#touch">
                   contact us now
                 </a>
               </div>
-            </Fade>
+       
           </div>
         </div>
       </section>
