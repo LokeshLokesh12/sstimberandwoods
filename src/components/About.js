@@ -23,7 +23,7 @@ function About() {
             <img src="./images/about_us-3.jpg" alt="" />
           </div>
           <div className="main_about_right">
-            <div className="content" style={{paddingBottom:'10px',margin:'150px 0 0 -4rem'}}>
+            <div className="content content_about" style={{paddingBottom:'10px',margin:'150px 0 0 -4rem'}}>
               <h6> Welcome to Sri Sakthi Interiors and Timber Works</h6>
               <h1>STYLISh DESIGNS, INNOVATIVE IDEAS</h1>
               <p style={{margin:"0"}}>

@@ -945,3 +945,13 @@ body{
 .contact_us_main_container .contact_us_right .form_container{
  width: 70%;
 }
+.ResponseNav{
+  display: none;
+  position: absolute;
+  z-index: 10;
+  transform: translateY(-100%);
+}
+.freeze{
+  overflow: hidden;
+  height: 100vh;
+}

@@ -1,0 +1,266 @@
+@media only screen and (max-width: 780px) {
+    .main .content {
+        position: absolute;
+        bottom: 7%;
+        left: 7%;
+    }
+    .main{
+        height: 95vh;
+        overflow: hidden;
+    }
+.ResponseNav{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #181818;
+    /* position: absolute; */
+    transition: .3s;
+}
+.open_res_nav{
+    transform: translateY(0);
+}
+.ResponseNav ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+.ResponseNav li{
+    list-style: none;
+    padding: 10px;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+.ResponseNav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.header_social ul{
+    gap: 5px !important;
+}
+.header_social img{
+    width: 30px;
+}
+.left_header{
+    display: none;
+}
+.header_social{
+    display: none;
+}
+.humberger_menu{
+    z-index: 1000;
+    display: block;
+    padding: 0 30px;
+    font-size: 25px;
+}
+.header{
+    justify-content: space-between;
+    padding: 10px 15px ;
+}
+.main .content h1{
+    font-size: 40px;
+}
+.main .content h6 {
+    width: 500px;
+}
+.main_about{
+    flex-direction: column;
+    padding-bottom: 0;
+    gap: 60px;
+}
+.main_about .main_about_right .content{
+    margin: 0;
+    /* margin-top: -60px ; */
+    margin-right: -00px ;
+}
+.main_service{
+    gap: 30px;
+    padding: 5rem 3rem;
+}
+.main_service .main_service_item{
+    width: 300px;
+}
+.main_service .main_service_item .content{
+    padding: 20px;
+}
+.custom_container{
+    grid-template-rows: 300px 300px
+}
+.custom_container .content h2{
+    font-size: 40px;
+}
+.testimonial{
+    padding: 30px;
+}
+.testimonial .testimonial_container{
+    flex-direction: column;
+}
+.testimonial .testimonial_container .testimonial_left{
+    width: 100%;
+}
+.testimonial .testimonial_container .testimonial_right{
+    width: 100%;
+    padding: 50px;
+}
+.client_words{
+    margin-left: 0;
+}
+.FAQ_container{
+    padding: 3rem 1rem;
+}
+.footer_container_main{
+    flex-direction: column;
+    gap: 15px;
+}
+.logo_image_footer{
+    margin-left: -15px;
+}
+
+/* about page */
+.content_about{
+    margin: 0 !important;
+}
+/* .about_door_left{
+    padding: 30px;
+} */
+.about_door{
+    flex-direction: column;
+    height: auto;
+    padding: 2rem 2rem 0;
+}
+.about_door_left{
+    width: 100%;
+    padding: 1rem;
+}
+.about_door_right{
+    width: 100%;
+    height: 300px;
+}
+
+.Testimonial_main_container{
+    padding: 3rem 2rem;
+}
+.contact_us_main_container{
+    gap: 40px;
+    flex-direction: column;
+    padding: 5rem 2rem;
+}
+.contact_us_main_container .contact_us_left {
+    width: 100%;
+}
+.contact_us_main_container .contact_us_right {
+    width: 100%;
+}
+.FAQ_container .content {
+    width: 80%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .main .content h6{
+        width: 100%;
+    }
+    .main .content h1{
+        font-size: 30px;
+    }
+    .main_about img{
+        width: 400px;
+    }
+    .main_about .main_about_right{
+        width: 400px;
+
+    }
+    .why_us_container .reason{
+        flex-direction: column;
+    }
+    .why_us_container .why_us_container_head p{
+        width: 90%;
+    }
+    .main img {
+        object-fit: cover;
+    }
+    .some_count{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .custom_container {
+       display: flex;
+       flex-direction: column;
+    }
+
+    /* Optional: Adjust individual item styling if needed */
+    .kitchen, .dining, .bedroom, .living {
+        width: 100%; 
+        height: 400px;
+    }
+    .main_about .main_about_right .content{
+        padding: 30px;
+    }
+    .main_service{
+        padding: 30px;
+    }
+    .main_service .main_service_item{
+        width: 100%;
+    }
+    .main_service .main_service_item .content{
+        padding: 30px;
+    }
+    .testimonial{
+        padding: 30px 0;
+    }
+    .why_us_container{
+        padding: 3rem 3rem 1rem;
+    }
+    .testimonial .testimonial_container .testimonial_left{
+        padding: 2rem;
+        padding-bottom: 3rem;
+    }
+    .testimonial .testimonial_container .testimonial_right{
+        padding: 0;
+    }
+    .accordion-item .accordion-header button{
+        font-size: 16px;
+
+    }
+    .FAQ_container .content {
+    width: 90%;
+    }
+    .about_door_right {
+    height: 200px;
+    }
+    .footer_container_main{
+        padding: 40px;
+    }
+    .about_us_main h1{
+        font-size: 70px;
+    }
+    .Testimonial_main_container .sub_title {
+    font-size: 30px;
+    }
+    .Testimonial_main_container{
+        padding: 60px 20px;
+    }
+    .Testimonial_main_container .des{
+        width: 90%;
+    }
+    .Testimonial_main_container .content .item{
+        flex: 0 1 100%;
+    }
+    .contact_us_main_container .contact_us_left img{
+        width: 300px;
+    }
+    .contact_us_main_container .contact_us_right .form_container{
+        width: 100%;
+    }
+    .container_grid {
+    padding: 5rem 2rem 5rem;
+    }
+    .custom_container{
+        padding: 10px;
+    }
+} 

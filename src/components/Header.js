@@ -1,6 +1,18 @@
-import React, { Fragment } from 'react'
-// import ResponsiveNav from './ResponsiveNav'
+import React, { Fragment, useEffect } from 'react'
+import ResponsiveNav from './ResponsiveNav'
 function Header() {
+  // const[button,setbutton]=useState(true)
+  useEffect(()=>{
+    let  menu = document.getElementById('menu')
+    let ResponseNav = document.getElementById('ResponseNav')
+    let body = document.getElementById('body')
+    menu.addEventListener('click', (e) =>{
+        ResponseNav.classList.toggle('open_res_nav');
+        console.log(body);
+         
+        body.classList.toggle("freeze")
+    })
+  })
   return (
     <Fragment>
       <header className="header">
@@ -29,30 +41,29 @@ function Header() {
         </div>
 
         <div className="header_social">
-
           <ul>
             <li>
-              <a href="/">
+              <a href="https://www.instagram.com/sstimberworksninteriors">
                 <img src="/images/instagram_header_social.png" alt="" />
               </a>
             </li>
             <li>
-              <a href="/">
-                <img src="/images/facebook_header_social.png" alt="" />
+              <a href="https://x.com/SRISAKTHI25">
+                <img src="/images/twitter.png" alt="" />
               </a>
             </li>
             <li>
-              <a href="/">
+              <a href="https://wa.me/+918248278511">
                 <img src="/images/whatsapp_header_social.png" alt="" />
               </a>
             </li>
           </ul>
-
         </div>
-        <div className="humberger_menu">
+        <div id='menu' className="humberger_menu">
+          <i class=" fa-solid fa-bars" style={{color: "#ffffff"}}></i>
         </div>
       </header>
-      {/* <ResponsiveNav/> */}
+      <ResponsiveNav/>
     </Fragment>
   )
 }

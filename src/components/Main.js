@@ -317,19 +317,19 @@ function main() {
         <div className="custom">
           <div class="custom_container">
             <div class="kitchen content">
-              <img src="./images/kitchen.jpg" alt="" />
+              <img src="./images/kitchen.jpg" loading="eager" alt="" />
               <h2>kitchen</h2>
             </div>
             <div class="bedroom content">
-              <img src="./images/bedroom-min.jpg" alt="" />
+              <img src="./images/bedroom-min.jpg"  loading="eager" alt="" />
               <h2>bedroom</h2>
             </div>
             <div class="living content">
-              <img src="./images/living.jpg" alt="" />
+              <img src="./images/living.jpg"  loading="eager" alt="" />
               <h2>living</h2>
             </div>
             <div class="dining content">
-              <img src="./images/dining-3.jpg" alt="" />
+              <img src="./images/dining-3.jpg"  loading="eager" alt="" />
               <h2>dining</h2>
             </div>
           </div>

@@ -35,19 +35,19 @@ function Footer() {
                     
                 </li>
                 <div className='social'>
-                    <a href="/">
+                    <a href="https://www.instagram.com/sstimberworksninteriors/">
                         <img src="/images/instagram.png" alt="" />
                     </a>
-                    <a href="/">
-                        <img src="/images/facebook.png" alt="" />
+                    <a href="https://www.linkedin.com/in/sri-sakthi-a86551339/">
+                        <img src="/images/linkedin.png" alt="" />
                     </a>
-                    <a href="/">
+                    <a href="https://wa.me/+918248278511">
                         <img src="/images/whatsapp.png" alt="" />
                     </a>
-                    <a href="/">
+                    <a href="https://x.com/SRISAKTHI25">
                         <img src="/images/twitter.png" alt="" />
                     </a>
-                    <a href="/">
+                    <a href="https://pin.it/2ZU7G1UYl">
                         <img src="/images/pinterest.png" alt="" />
                     </a>
                 </div>
