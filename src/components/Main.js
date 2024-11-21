@@ -26,7 +26,7 @@ function main() {
               </h6>
           
               <div className="">
-                <a className="touch_btn" href="#touch">
+                <a className="touch_btn" href="/contact">
                   contact us now
                 </a>
               </div>
@@ -60,7 +60,7 @@ function main() {
               unique taste and stand the test of time.
             </p>
             <div className="">
-              <a className="call_now" href="\">
+              <a className="call_now" href="\about">
                 know more
               </a>
             </div>
@@ -89,7 +89,7 @@ function main() {
               Far far away behind the word mountains far from the countries
               Vokalia and Consonantia there live the blind texts.
             </p>
-            <a className="black_white_btn" href="/service">
+            <a className="black_white_btn" href="/contact">
               Talk With Us
             </a>
           </div>
@@ -350,7 +350,7 @@ function main() {
               of service. Every suggestion helps us grow, refine our approach,
               and achieve excellence in every project we undertake.
             </p>
-            <a className="touch_btn" style={{marginTop:"30px", padding:'12px 30px'}} href="/testimonial">view more</a>
+            <a className="touch_btn" style={{marginTop:"30px", padding:'12px 30px'}} href="/testimonial">Read more</a>
           </div>
           <div className="testimonial_right">
             <div className="client_words">

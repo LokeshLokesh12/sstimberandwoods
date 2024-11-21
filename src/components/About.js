@@ -25,17 +25,7 @@ function About() {
           <div className="main_about_right">
             <div className="content" style={{paddingBottom:'10px',margin:'150px 0 0 -4rem'}}>
               <h6> Welcome to Sri Sakthi Interiors and Timber Works</h6>
-              {/* <emp>Since 1999</emp> */}
               <h1>STYLISh DESIGNS, INNOVATIVE IDEAS</h1>
-              {/* <p>
-                        At Sri Sakthi Timber Works & Interiors, we bring 25 years of refined expertise to every project, combining the elegance of fine timber craftsmanship with cutting-edge interior design. 
-                        Our focus is on delivering tailored solutions that enhance functionality, style, and durability.
-                        Whether it’s a custom wood feature or a complete interior overhaul, 
-                        we leverage our deep industry knowledge to create spaces that reflect your unique taste and needs. 
-                        With a commitment to quality and innovation, 
-                        we transform ordinary spaces into extraordinary environments that stand the test of time.
-                        </p> */}
-
               <p style={{margin:"0"}}>
                 "At Sri Sakthi Timber Works & Interiors,
                  we bring 25 years of refined expertise to every project,
@@ -67,7 +57,6 @@ function About() {
         <div className="about_door">
           <div className="about_door_left">
             <h1>Mastering the Art of Door Crafting with Decades of Expertise <span className='since'>since 1999</span></h1>
-             
             <p>We specialize in crafting high-quality doors that combine durability, functionality, and aesthetic appeal. Whether you need sleek modern designs, classic wooden styles, or custom-built solutions, our doors are designed to meet your unique requirements. With precision craftsmanship and premium materials, we ensure every door enhances the beauty and security of your space, delivering a perfect blend of style and performance.</p>
           </div>
           <div className="about_door_right"></div>

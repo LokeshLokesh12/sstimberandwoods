@@ -4,6 +4,7 @@ import App from './App'
 import About from './components/About'
 import Service from './components/Service'
 import Testimonial from './components/Testimonial'
+import Contact from './components/Contact'
 
 function RouterModule() {
   return (
@@ -15,6 +16,7 @@ function RouterModule() {
                 <Route path='/about' element={<About/>}></Route>
                 <Route path='/service' element={<Service/>}></Route>
                 <Route path='/testimonial' element={<Testimonial/>}></Route>
+                <Route path='/contact' element={<Contact/>}></Route>
                 </Routes>
         </BrowserRouter>
     </Fragment>

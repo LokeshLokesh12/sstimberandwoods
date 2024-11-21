@@ -23,7 +23,7 @@ function Header() {
               <a href="/testimonial">testimonial</a>
             </li>
             <li>
-              <a href="/">contact us</a>
+              <a href="/contact">contact us</a>
             </li>
           </ul>
         </div>

@@ -4,9 +4,15 @@ import { Fragment } from 'react'
 function Footer() {
   return (
     <Fragment>
+        <div className="footer_container_main">
+        <section>
+            <img className='logo_image_footer' src="/images/SRISAKTHI_Header_logo.png" alt="" />
+
+        </section>
         <secetion className="getintouch">
-            <h1>GET IN TOUCH</h1>
-            <p>Far far away behind the word mountains far from the countries Vokalia and Consonantia there live the blind texts.</p>
+            {/* <h1>GET IN TOUCH</h1> */}
+            <h3>Get In Touch</h3>
+            {/* <p>Far far away behind the word mountains far from the countries Vokalia and Consonantia there live the blind texts.</p> */}
             <ul>
                 <li>
                     <img src="/images/call.png" alt="call" />
@@ -48,6 +54,32 @@ function Footer() {
             </ul>
         <div className="blur"></div>
         </secetion>
+        <secetion className="getintouch">
+            <h3>Quick Links</h3>
+            <ul>
+                <li>
+                    <a href="/home">Home</a>
+                </li>
+                <li>
+                    <a href="/about">About us</a>
+                </li>
+                <li>
+                    <a href="/service">Service</a>
+                </li>
+                <li>
+                    <a href="/testimonial">Testimonial</a>
+                </li>
+                <li>
+                    <a href="/">Contact us</a>
+                </li>
+            </ul>
+        </secetion>
+        <secetion className="getintouch">
+            <h3>Working Hours</h3>
+            <p style={{margin:0}}>Monday - Saturday</p>
+            <p>9.00 AM - 6.00 PM</p>
+        </secetion>
+        </div>
         <footer>
         </footer>
     </Fragment>

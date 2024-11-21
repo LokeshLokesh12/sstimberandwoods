@@ -602,16 +602,27 @@ body{
 .carousel-control-prev, .carousel-control-next{
   display: none !important;
 }
-.getintouch{
+.footer_container_main{
+  display: flex;
+  gap: 50px;
   position: relative;
   overflow: hidden;
   background-color: #181818;
   width: 100%;
-  /* min-height: 400px; */
-  display: inline-block;
+
   padding: 2rem 5rem;
 }
+.logo_image_footer{
+  margin: 10px;
+}
+.getintouch{
+  width: 350px;
+}
 .getintouch h1 {
+  color: #fff;
+  margin: 10px 0 15px;
+}
+.getintouch h3{
   color: #fff;
   margin: 10px 0 15px;
 }
@@ -855,7 +866,7 @@ body{
 .Testimonial_main_container .content {
   padding: 3rem 0;
   display: flex;
-  align-items: stretch;
+  /* align-items: stretch; */
   justify-content: start;
   flex-wrap: wrap;
   gap: 30px;
@@ -864,7 +875,8 @@ body{
   
 }
 .Testimonial_main_container .content .item{
-  width: 410px;
+  flex: 0 1 45%;
+  /* width: 410px; */
   border: 1px solid #666666; 
   padding: 20px;
   display: flex;
@@ -875,7 +887,7 @@ body{
 }
 .Testimonial_main_container .content .item:hover{
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  border-radius: 0px;
+  /* border-radius: 0px; */
 }
 .Testimonial_main_container .content .item p{
   font-size: 16px;
@@ -897,4 +909,39 @@ body{
   text-transform: capitalize;
   font-style: italic;
   letter-spacing: 1px;
+}
+.star-ratings{
+  margin-bottom: 10px;
+}
+/* contact us page */
+
+.contact_us_main_container{
+  padding: 6rem 10rem;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: space-between;
+  display: flex;
+
+}
+.contact_us_main_container .contact_us_left{
+  width: 50%;
+  
+}
+.contact_us_main_container .contact_us_left img{
+ margin: auto; 
+ display: block;
+ text-align: center;
+}
+.contact_us_main_container .contact_us_right{
+  width: 50%;
+}
+.contact_us_main_container .contact_us_right h1{
+  font-size: 45px;
+  /* font-family: "Lato", sans-serif; */
+  /* font-family: "Fuggles", sans-serif; */
+  letter-spacing: 1px;
+  font-weight: 900;
+}
+.contact_us_main_container .contact_us_right .form_container{
+ width: 70%;
 }
