@@ -12,7 +12,11 @@ function main() {
     <main>
       <section>
         <div className="main">
-          <img src="./images/main_background2.jpg" alt="" />
+         
+          {/* <img src="https://archicgi.com/wp-content/uploads/2020/12/living-room-rendering-10-examples-view01.jpg" alt="" /> */}
+          {/* <img src="https://archicgi.com/wp-content/uploads/2020/12/living-room-rendering-10-examples-view08.jpg" alt="" /> */}
+          <img src="https://archicgi.com/wp-content/uploads/2022/10/interior-cgi-large-living-room-vh3d8323.png" alt="" />
+          {/* <img src="" alt="" /> */}
           <div className="content">
             
               <h1>
@@ -21,8 +25,8 @@ function main() {
                 home happen
               </h1>
               <h6>
-                We specialize in creating personalized spaces that reflect your
-                vision, blending functionality, style, and comfort.
+              We bring your dream spaces to life with designs that harmonize utility,
+               elegance, and personalized charm.
               </h6>
           
               <div className="">
@@ -40,18 +44,8 @@ function main() {
         </div>
         <div className="main_about_right">
           <div className="content">
-            <h6> Welcome to Sri Sakthi Interiors and Timber Works</h6>
-            {/* <emp>Since 1999</emp> */}
-            <h1>STYLISh DESIGNS, INNOVATIVE IDEAS</h1>
-            {/* <p>
-                        At Sri Sakthi Timber Works & Interiors, we bring 25 years of refined expertise to every project, combining the elegance of fine timber craftsmanship with cutting-edge interior design. 
-                        Our focus is on delivering tailored solutions that enhance functionality, style, and durability.
-                        Whether it’s a custom wood feature or a complete interior overhaul, 
-                        we leverage our deep industry knowledge to create spaces that reflect your unique taste and needs. 
-                        With a commitment to quality and innovation, 
-                        we transform ordinary spaces into extraordinary environments that stand the test of time.
-                    </p> */}
-
+            <h6>step into Sri Sakthi interiors and timber works</h6>
+            <h1>timeless designs creative solutions</h1>
             <p>
               At Sri Sakthi Timber Works & Interiors, we bring 25 years of
               expertise, blending fine timber craftsmanship with modern interior
@@ -80,16 +74,15 @@ function main() {
 
       <section className="main_service">
         <div
-          className="main_service_item"
+          className="main_service_item big_item"
           style={{ backgroundColor: "#f8f8f8" }}
         >
           <div className="content">
             <h1>Our Services</h1>
             <p id="main_content_p">
-              Far far away behind the word mountains far from the countries
-              Vokalia and Consonantia there live the blind texts.
+            We design custom interiors, including timber furniture, modular kitchens, wardrobes, and ceilings, delivering quality and functionality to suit your style.
             </p>
-            <a className="black_white_btn" href="/contact">
+            <a className="black_white_btn " href="/contact">
               Talk With Us
             </a>
           </div>
@@ -109,8 +102,7 @@ function main() {
             />
             <h2>Residential Design</h2>
             <p>
-              We bring the right people together to challenge established
-              thinking and drive transform in 2020
+            Transforming your home into a stylish, functional sanctuary tailored to your needs and preferences.
             </p>
           </div>
         </div>
@@ -129,8 +121,7 @@ function main() {
             />
             <h2>Restaurant Design</h2>
             <p>
-              We bring the right people together to challenge established
-              thinking and drive transform in 2020
+            Crafting vibrant, welcoming spaces that enhance dining experiences and reflect your restaurant's identity
             </p>
           </div>
         </div>
@@ -149,8 +140,8 @@ function main() {
             />
             <h2>Corporate Design</h2>
             <p>
-              We bring the right people together to challenge established
-              thinking and drive transform in 2020
+            Designing efficient and modern workspaces that foster collaboration, creativity, and professionalism.
+
             </p>
           </div>
         </div>
@@ -169,8 +160,8 @@ function main() {
             />
             <h2>Commercial Design</h2>
             <p>
-              We bring the right people together to challenge established
-              thinking and drive transform in 2020
+            Creating visually striking and practical spaces that engage customers and support your business goals.
+
             </p>
           </div>
         </div>
@@ -189,15 +180,14 @@ function main() {
             />
             <h2>Industrial Design</h2>
             <p>
-              We bring the right people together to challenge established
-              thinking and drive transform in 2020
+            Designing robust, safe, and efficient industrial spaces to streamline operations and increase productivity.
             </p>
           </div>
         </div>
       </section>
       <section>
         <div className="container_grid">
-          <h1>End-to-End Interior solutions for your home</h1>
+          <h1>All-In-One Interior Design Services for Your Perfect Home</h1>
           <Container>
             <Row style={{ textAlign: "center" }}>
               <Col lg={3} md={3} xs={6}>
@@ -340,15 +330,12 @@ function main() {
       <section id="testimonial" className="testimonial">
         <div className="testimonial_container">
           <div className="testimonial_left">
-            <h1>our happy clients</h1>
+            <h1>Our Satisfied Clients</h1>
             <p>
               {/* We deeply appreciate the trust and feedback from our clients.
             Your satisfaction motivates us to innovate and provide the best services possible.
             It helps us grow, improve, and deliver excellence in every project we undertake. */}
-              We deeply appreciate the trust and feedback of our clients. Your
-              satisfaction drives us to innovate and deliver the highest quality
-              of service. Every suggestion helps us grow, refine our approach,
-              and achieve excellence in every project we undertake.
+             We value the trust and feedback of our clients, as it inspires us to continuously improve and deliver exceptional service. Your satisfaction is our priority, and every piece of feedback helps us perfect our craft and exceed expectations in each project.
             </p>
             <a className="touch_btn" style={{marginTop:"30px", padding:'12px 30px'}} href="/testimonial">Read more</a>
           </div>
@@ -360,43 +347,33 @@ function main() {
               <Carousel>
                 <Carousel.Item>
                   <div className="content">
-                    <h3>Priya Kumar, Chennai</h3>
+                    <h3>Anitha Krishnan, Chromepet</h3>
                     <p>
-                      We recently hired Sri Sakthi Interiors and Timber Works to
-                      renovate our living room and couldn't be happier with the
-                      results. Their attention to detail and craftsmanship are
-                      exceptional. From the custom timber furniture to the
-                      elegant interior design, every element exceeded our
-                      expectations. The team was professional, punctual, and
-                      truly understood our vision. Highly recommended!
+                    We hired Sri Sakthi Interiors to renovate our home in
+                Chromepet, and their work was beyond exceptional. Their
+                craftsmanship, from elegant timber furniture to custom
+                interiors, was flawless
                     </p>
                   </div>
                 </Carousel.Item>
                 <Carousel.Item>
                   <div className="content">
-              <h3>Rahul Verma, Coimbatore</h3>
+              <h3>Suresh, Perungalathur</h3>
                   <p>
-                Sri Sakthi Interiors and Timber Works transformed my office
-                space into a modern and functional environment. Their expertise
-                in combining stylish interiors with durable timber work is
-                unmatched. They completed the project on time and within budget,
-                making the entire experience hassle-free. If you're looking for
-                quality and creativity, this is the team to choose!
+                  Sri Sakthi Interiors redesigned our living room in
+                Perungalathur, and the results were amazing! They later handled
+                a project for our villa in Maraimalai Nagar. From modern designs
+                to traditional timberwork, they excel in everything
               </p>
                   </div>
                 </Carousel.Item>
                 <Carousel.Item>
                   <div className="content">
-                    <h3>Meenakshi Iyer, chennai</h3>
+                    <h3>Ravi Shankar, Urapakkam</h3>
                     <p>
-                      I was impressed with the exceptional service provided by
-                      Sri Sakthi Interiors and Timber Works. They crafted custom
-                      wardrobes and a modular kitchen for our home, and the
-                      results were stunning. Their team was very accommodating
-                      to our requests and provided valuable design suggestions.
-                      The materials used were of top-notch quality, and the
-                      finish was flawless. A big thank you for making our dream
-                      home a reality!
+                    Sri Sakthi Interiors transformed our residence in Urapakkam
+                with beautiful custom furniture and stunning interior designs.
+                Their dedication and craftsmanship are truly praiseworthy!
                     </p>
                   </div>
                 </Carousel.Item>

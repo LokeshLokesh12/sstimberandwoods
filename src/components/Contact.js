@@ -25,7 +25,23 @@ function Contact() {
       const handleSubmit = async (e) => {
         e.preventDefault();
         setIsSubmitting(true);
-      
+        
+        if(formData.mobile_number.length < 10){
+            
+            toast.error('Check Your Mobile Number', {
+                position: "bottom-right",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "colored",
+                transition: Bounce,
+                });
+            setIsSubmitting(false);
+            return
+        }
         const formDataWithStringMobile = {
           ...formData,
           mobile_number: formData.mobile_number.trim().replace('+', ''), // Ensure clean input

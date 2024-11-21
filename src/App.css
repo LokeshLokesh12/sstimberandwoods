@@ -182,7 +182,14 @@
         width: 90%;
     }
     .main img {
-        object-fit: cover;
+        /* object-fit: cover; */
+        opacity: .3;
+    }
+    .big_item{
+        height: 300px !important;
+    }
+    .why_us_container .reason .reason_child{
+        padding: 0 20px;
     }
     .some_count{
         flex-direction: column;

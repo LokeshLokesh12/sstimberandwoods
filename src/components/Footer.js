@@ -38,7 +38,7 @@ function Footer() {
                     <a href="https://www.instagram.com/sstimberworksninteriors/">
                         <img src="/images/instagram.png" alt="" />
                     </a>
-                    <a href="https://www.linkedin.com/in/sri-sakthi-a86551339/">
+                    <a href="https://www.linkedin.com/in/sri-sakthi-timber-works-and-interiors-a86551339/">
                         <img src="/images/linkedin.png" alt="" />
                     </a>
                     <a href="https://wa.me/+918248278511">
@@ -70,7 +70,7 @@ function Footer() {
                     <a href="/testimonial">Testimonial</a>
                 </li>
                 <li>
-                    <a href="/">Contact us</a>
+                    <a href="/contact">Contact us</a>
                 </li>
             </ul>
         </secetion>

@@ -24,8 +24,8 @@ function About() {
           </div>
           <div className="main_about_right">
             <div className="content content_about" style={{paddingBottom:'10px',margin:'150px 0 0 -4rem'}}>
-              <h6> Welcome to Sri Sakthi Interiors and Timber Works</h6>
-              <h1>STYLISh DESIGNS, INNOVATIVE IDEAS</h1>
+              <h6>step into Sri Sakthi interiors and timber works</h6>
+              <h1>timeless designs, creative solutions</h1>
               <p style={{margin:"0"}}>
                 "At Sri Sakthi Timber Works & Interiors,
                  we bring 25 years of refined expertise to every project,

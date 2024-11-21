@@ -25,8 +25,7 @@ function Service() {
           <div className="content">
             <h1>Our Services</h1>
             <p id="main_content_p">
-              Far far away behind the word mountains far from the countries
-              Vokalia and Consonantia there live the blind texts.
+            We design custom interiors, including timber furniture, modular kitchens, wardrobes, and ceilings, delivering quality and functionality to suit your style.
             </p>
           </div>
         </div>
@@ -45,8 +44,8 @@ function Service() {
             />
             <h2>Residential Design</h2>
             <p>
-              We bring the right people together to challenge established
-              thinking and drive transform in 2020
+            Transforming your home into a stylish, functional sanctuary tailored to your needs and preferences.
+
             </p>
           </div>
         </div>
@@ -65,8 +64,8 @@ function Service() {
             />
             <h2>Restaurant Design</h2>
             <p>
-              We bring the right people together to challenge established
-              thinking and drive transform in 2020
+            Crafting vibrant, welcoming spaces that enhance dining experiences and reflect your restaurant's identity.
+
             </p>
           </div>
         </div>
@@ -85,8 +84,7 @@ function Service() {
             />
             <h2>Corporate Design</h2>
             <p>
-              We bring the right people together to challenge established
-              thinking and drive transform in 2020
+            Designing efficient and modern workspaces that foster collaboration, creativity, and professionalism.
             </p>
           </div>
         </div>
@@ -105,8 +103,7 @@ function Service() {
             />
             <h2>Commercial Design</h2>
             <p>
-              We bring the right people together to challenge established
-              thinking and drive transform in 2020
+            Creating visually striking and practical spaces that engage customers and support your business goals.
             </p>
           </div>
         </div>
@@ -125,15 +122,14 @@ function Service() {
             />
             <h2>Industrial Design</h2>
             <p>
-              We bring the right people together to challenge established
-              thinking and drive transform in 2020
+            Designing robust, safe, and efficient industrial spaces to streamline operations and increase productivity.
             </p>
           </div>
         </div>
       </section>
       <section>
         <div className="container_grid">
-          <h1>End-to-End Interior solutions for your home</h1>
+          <h1>All-In-One Interior Design Services for Your Perfect Home</h1>
           <Container>
             <Row style={{ textAlign: "center" }}>
               <Col lg={3} md={3} xs={6}>

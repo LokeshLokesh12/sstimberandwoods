@@ -11,64 +11,43 @@ function FAQ() {
             <Accordion.Header>How can I get started with Sri Sakthi Timber Works & Interiors?</Accordion.Header>
             <Accordion.Body>
                 <p>
-                    Getting started is simple! Contact us via our website, email, or phone, and share your requirements. We’ll arrange an initial consultation to discuss your vision and preferences.
+                Contact us for a consultation, and we’ll help you plan your project from start to finish.
                 </p>
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
-            <Accordion.Header>What is the timeline for completing a project?</Accordion.Header>
+            <Accordion.Header>WWhat is the timeline for completing a project?</Accordion.Header>
             <Accordion.Body>
                 <p>
-            At Sri Sakthi Timber Works & Interiors, we typically complete projects within <b>55 Days</b>, depending on the scope and complexity of the work.
+                Timelines depend on the scope, and we’ll provide a clear estimate after reviewing your project.
                 </p>
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="2">
-            <Accordion.Header>What sets Sri Sakthi Timber Works & Interiors apart?</Accordion.Header>
+            <Accordion.Header>What sets Sri Sakthi Timber Works & Interiors apart?
+            </Accordion.Header>
             <Accordion.Body>
               <p>
-              With <b>25 Years of Expertise</b>, we blend fine timber craftsmanship with modern interior design. Our tailored solutions prioritize functionality, style, and durability, ensuring spaces that are both beautiful and practical.
+              We offer personalized, high-quality designs with a focus on customer satisfaction and attention to detail.
               </p>
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="3">
             <Accordion.Header>Do you offer custom designs?</Accordion.Header>
             <Accordion.Body>
-              <p>Yes! All our designs are fully customizable to suit your taste, lifestyle, and budget. Whether it’s a unique wood feature or a complete interior makeover, we create solutions tailored just for you.</p>
+              <p>Yes, all our designs are tailored to your specific needs and preferences.</p>
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="4">
             <Accordion.Header>What services do you offer?</Accordion.Header>
             <Accordion.Body>
-              <p>We provide end-to-end interior design and woodwork solutions, including:</p>
-              <ul>
-                <li>Custom timber features</li>
-                <li>Complete interior design and execution</li>
-                <li>Renovations and upgrades</li>
-              </ul>
+              <p>We specialize in interior design, timber works, modular kitchens, wardrobes, office spaces, and more.</p>
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="5">
             <Accordion.Header>How does the design process work?</Accordion.Header>
             <Accordion.Body>
-              <ul>
-                <li>
-                    <h6>Step 1: Consultation</h6>
-                    <p>We begin with an in-depth consultation to understand your needs and preferences.</p>
-                </li>
-                <li>
-                    <h6>Step 2: Design & Planning</h6>
-                    <p>Our team develops detailed designs and layouts, including material recommendations.</p>
-                </li>
-                <li>
-                    <h6>Step 3: Execution</h6>
-                    <p>Skilled craftsmen and interior experts bring the vision to life with rigorous quality checks throughout the process.</p>
-                </li>
-                <li>
-                    <h6>Step 4: Completion</h6>
-                    <p>Your project is delivered on time, within 55 days, ready to enhance your lifestyle.</p>
-                </li>
-              </ul>
+             <p>We start with your ideas, create a customized plan, and then execute it with precision and care.</p>
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
