@@ -12,11 +12,7 @@ function main() {
     <main>
       <section>
         <div className="main">
-         
-          {/* <img src="https://archicgi.com/wp-content/uploads/2020/12/living-room-rendering-10-examples-view01.jpg" alt="" /> */}
-          {/* <img src="https://archicgi.com/wp-content/uploads/2020/12/living-room-rendering-10-examples-view08.jpg" alt="" /> */}
-          <img src="https://archicgi.com/wp-content/uploads/2022/10/interior-cgi-large-living-room-vh3d8323.png" alt="" />
-          {/* <img src="" alt="" /> */}
+          <img src="/images/main_background_img_OG.png" alt="" />
           <div className="content">
             
               <h1>
