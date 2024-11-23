@@ -16,7 +16,7 @@ function FAQ() {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
-            <Accordion.Header>WWhat is the timeline for completing a project?</Accordion.Header>
+            <Accordion.Header>What is the timeline for completing a project?</Accordion.Header>
             <Accordion.Body>
                 <p>
                 Timelines depend on the scope, and we’ll provide a clear estimate after reviewing your project.

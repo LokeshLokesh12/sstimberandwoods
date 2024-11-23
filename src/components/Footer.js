@@ -4,12 +4,13 @@ import { Fragment } from 'react'
 function Footer() {
   return (
     <Fragment>
+    <footer>
         <div className="footer_container_main">
         <section>
             <img className='logo_image_footer' src="/images/SRISAKTHI_Header_logo.png" alt="" />
 
         </section>
-        <secetion className="getintouch">
+        <section className="getintouch">
             {/* <h1>GET IN TOUCH</h1> */}
             <h3>Get In Touch</h3>
             {/* <p>Far far away behind the word mountains far from the countries Vokalia and Consonantia there live the blind texts.</p> */}
@@ -53,8 +54,8 @@ function Footer() {
                 </div>
             </ul>
         <div className="blur"></div>
-        </secetion>
-        <secetion className="getintouch">
+        </section>
+        <section className="getintouch">
             <h3>Quick Links</h3>
             <ul>
                 <li>
@@ -73,14 +74,13 @@ function Footer() {
                     <a href="/contact">Contact us</a>
                 </li>
             </ul>
-        </secetion>
-        <secetion className="getintouch">
+        </section>
+        <section className="getintouch">
             <h3>Working Hours</h3>
             <p style={{margin:0}}>Monday - Saturday</p>
             <p>9.00 AM - 6.00 PM</p>
-        </secetion>
+        </section>
         </div>
-        <footer>
         </footer>
     </Fragment>
   )

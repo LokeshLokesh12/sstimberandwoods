@@ -301,20 +301,20 @@ function main() {
           100% customized interiors by professionals
         </h1>
         <div className="custom">
-          <div class="custom_container">
-            <div class="kitchen content">
+          <div className="custom_container">
+            <div className="kitchen content">
               <img src="./images/kitchen.jpg" loading="eager" alt="" />
               <h2>kitchen</h2>
             </div>
-            <div class="bedroom content">
+            <div className="bedroom content">
               <img src="./images/bedroom-min.jpg"  loading="eager" alt="" />
               <h2>bedroom</h2>
             </div>
-            <div class="living content">
+            <div className="living content">
               <img src="./images/living.jpg"  loading="eager" alt="" />
               <h2>living</h2>
             </div>
-            <div class="dining content">
+            <div className="dining content">
               <img src="./images/dining-3.jpg"  loading="eager" alt="" />
               <h2>dining</h2>
             </div>

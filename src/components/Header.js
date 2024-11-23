@@ -60,7 +60,7 @@ function Header() {
           </ul>
         </div>
         <div id='menu' className="humberger_menu">
-          <i class=" fa-solid fa-bars" style={{color: "#ffffff"}}></i>
+          <i className=" fa-solid fa-bars" style={{color: "#ffffff"}}></i>
         </div>
       </header>
       <ResponsiveNav/>
