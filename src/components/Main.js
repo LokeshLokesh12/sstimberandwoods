@@ -85,13 +85,13 @@ function main() {
         </div>
         <div className="main_service_item">
           <img
-            src="./images/Residential.jpg"
+            src="/images/Residential.jpg"
             alt=""
             className="background_image"
           />
           <div className="content">
             <img
-              src="./images/house.png"
+              src="/images/house.png"
               style={{ width: "40px", height: "40px" }}
               alt=""
               className="service_icon"
@@ -104,13 +104,13 @@ function main() {
         </div>
         <div className="main_service_item">
           <img
-            src="./images/Restaurant.jpg"
+            src="/images/Restaurant.jpg"
             alt=""
             className="background_image"
           />
           <div className="content main_content">
             <img
-              src="./images/restaurant.png"
+              src="/images/restaurant.png"
               style={{ width: "40px", height: "40px" }}
               alt=""
               className="service_icon"
@@ -123,13 +123,13 @@ function main() {
         </div>
         <div className="main_service_item">
           <img
-            src="./images/Corporate.jpg"
+            src="/images/Corporate.jpg"
             alt=""
             className="background_image"
           />
           <div className="content">
             <img
-              src="./images/table.png"
+              src="/images/table.png"
               style={{ width: "40px", height: "40px" }}
               alt=""
               className="service_icon"
@@ -143,13 +143,13 @@ function main() {
         </div>
         <div className="main_service_item">
           <img
-            src="./images/commercial.jpg"
+            src="images/Commercial.jpg"
             alt=""
             className="background_image"
           />
           <div className="content">
             <img
-              src="./images/skyscrapers.png"
+              src="/images/skyscrapers.png"
               style={{ width: "40px", height: "40px" }}
               alt=""
               className="service_icon"
@@ -163,13 +163,13 @@ function main() {
         </div>
         <div className="main_service_item">
           <img
-            src="./images/Industrial.jpg"
+            src="/images/Industrial.jpg"
             alt=""
             className="background_image"
           />
           <div className="content">
             <img
-              src="./images/factory.png"
+              src="/images/factory.png"
               style={{ width: "40px", height: "40px" }}
               alt=""
               className="service_icon"
