@@ -328,9 +328,6 @@ function main() {
           <div className="testimonial_left">
             <h1>Our Satisfied Clients</h1>
             <p>
-              {/* We deeply appreciate the trust and feedback from our clients.
-            Your satisfaction motivates us to innovate and provide the best services possible.
-            It helps us grow, improve, and deliver excellence in every project we undertake. */}
              We value the trust and feedback of our clients, as it inspires us to continuously improve and deliver exceptional service. Your satisfaction is our priority, and every piece of feedback helps us perfect our craft and exceed expectations in each project.
             </p>
             <a className="touch_btn" style={{marginTop:"30px", padding:'12px 30px'}} href="/testimonial">Read more</a>

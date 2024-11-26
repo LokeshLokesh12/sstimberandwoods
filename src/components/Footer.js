@@ -11,13 +11,10 @@ function Footer() {
 
         </section>
         <section className="getintouch">
-            {/* <h1>GET IN TOUCH</h1> */}
             <h3>Get In Touch</h3>
-            {/* <p>Far far away behind the word mountains far from the countries Vokalia and Consonantia there live the blind texts.</p> */}
             <ul>
                 <li>
                     <img src="/images/call.png" alt="call" />
-                    {/* <p></p> */}
                     <div className="">
                         <a href="tel:+918248278511">+91 8248278511</a>
                         <br />

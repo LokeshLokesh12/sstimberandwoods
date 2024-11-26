@@ -1,7 +1,6 @@
 import React, { Fragment, useEffect } from 'react'
 import ResponsiveNav from './ResponsiveNav'
 function Header() {
-  // const[button,setbutton]=useState(true)
   useEffect(()=>{
     let  menu = document.getElementById('menu')
     let ResponseNav = document.getElementById('ResponseNav')
@@ -17,7 +16,6 @@ function Header() {
     <Fragment>
       <header className="header">
         <div className="right_header">
-          {/* <div className="logo"></div> */}
           <img className='logo' src="./images/SRISAKTHI_Header_logo.png" loading='lazy' alt="logo" />
         </div>
         <div className="left_header">

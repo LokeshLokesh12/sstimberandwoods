@@ -1,13 +1,13 @@
 @media only screen and (max-width: 780px) {
-    .main .content {
-        position: absolute;
-        bottom: 7%;
-        left: 7%;
-    }
-    .main{
-        height: 95vh;
-        overflow: hidden;
-    }
+.main .content {
+    position: absolute;
+    bottom: 7%;
+    left: 7%;
+}
+.main{
+    height: 95vh;
+    overflow: hidden;
+}
 .ResponseNav{
     display: block;
     width: 100%;
@@ -17,7 +17,6 @@
     align-items: center;
     justify-content: center;
     background-color: #181818;
-    /* position: absolute; */
     transition: .3s;
 }
 .open_res_nav{
@@ -75,7 +74,6 @@
 }
 .main_about .main_about_right .content{
     margin: 0;
-    /* margin-top: -60px ; */
     margin-right: -00px ;
 }
 .main_service{
@@ -125,9 +123,6 @@
 .content_about{
     margin: 0 !important;
 }
-/* .about_door_left{
-    padding: 30px;
-} */
 .about_door{
     flex-direction: column;
     height: auto;
@@ -160,7 +155,6 @@
     width: 80%;
     }
 }
-
 @media only screen and (max-width: 500px) {
     .main .content h6{
         width: 100%;
@@ -182,7 +176,6 @@
         width: 90%;
     }
     .main img {
-        /* object-fit: cover; */
         opacity: .3;
     }
     .big_item{
