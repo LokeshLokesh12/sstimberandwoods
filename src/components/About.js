@@ -4,9 +4,22 @@ import CountUp from 'react-countup'
 import Footer from './Footer'
 import FAQ from './FAQ'
 import Whyus from './Whyus'
+import {Helmet} from "react-helmet"
 function About() {
   return (
     <Fragment>
+      <Helmet>
+                <meta charSet="utf-8" />
+                <title>About Us </title>
+                <meta
+                  name="description"
+                  content="Learn about Sri Sakthi Interiors and Timber Works, a Chennai-based company offering premium interior design and high-quality timber solutions. Specializing in modular kitchens, custom furniture, and bespoke woodwork for homes and offices."
+                />
+                <meta
+                  name="keywords"
+                  content="Sri Sakthi Interiors, timber works Chennai, interior design Chennai, modular kitchens, custom furniture, bespoke woodwork, home interiors Chennai, office interiors Chennai, premium timber solutions, sustainable woodwork"
+                />
+      </Helmet>
       <Header />
       <section>
         <div className="about_us_main">

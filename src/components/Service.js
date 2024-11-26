@@ -5,9 +5,23 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import FAQ from './FAQ';
+import { Helmet } from 'react-helmet';
 function Service() {
   return (
     <Fragment>
+      <Helmet>
+      <meta
+        name="description"
+        content="Explore the services offered by Sri Sakthi Interiors and Timber Works, Chennai. Specializing in interior design, modular kitchens, custom furniture, bespoke woodwork, and premium timber solutions for homes and offices."
+      />
+      <meta
+        name="keywords"
+        content="Sri Sakthi Interiors services, timber works Chennai, interior design services Chennai, modular kitchens, custom furniture, bespoke woodwork, home interiors Chennai, office interiors Chennai, premium timber solutions, furniture design Chennai"
+      />
+      <title>Service</title>
+
+
+      </Helmet>
       <Header/>
         <section>
         <div className="about_us_main">

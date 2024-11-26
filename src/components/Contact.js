@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { ToastContainer, toast, Bounce } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { Helmet } from 'react-helmet';
 function Contact() {
     const [formData, setFormData] = useState({
         name: '',
@@ -88,6 +89,17 @@ function Contact() {
       
   return (
     <Fragment>
+        <Helmet>
+        <meta
+          name="keywords"
+          content="Sri Sakthi Interiors contact, timber works Chennai contact, interior design inquiries, modular kitchens contact Chennai, custom furniture contact, woodwork services Chennai, home interiors contact, office interiors contact, Chennai timber solutions contact"
+        />
+        <meta
+          name="description"
+          content="Get in touch with Sri Sakthi Interiors and Timber Works, Chennai. Contact us for inquiries about interior design, timber solutions, modular kitchens, and custom furniture for your home or office."
+        />
+        <title>Contact us</title>
+        </Helmet>
         <Header/>
         <section>
         <div className="about_us_main">

@@ -19,9 +19,9 @@ function Footer() {
                     <img src="/images/call.png" alt="call" />
                     {/* <p></p> */}
                     <div className="">
-                        <a href="tel:+919790775189">+91 9790775189</a>
-                        <br />
                         <a href="tel:+918248278511">+91 8248278511</a>
+                        <br />
+                        <a href="tel:+919790775189">+91 9790775189</a>
                     </div>
                 </li>
                 <li>
@@ -32,7 +32,7 @@ function Footer() {
                 <li>
                     <img src="/images/pin.png" alt="call" />
                     <p> 140, sokkathaamman Kovil Street, <br />
-                             Urapakkam, chengalpattu - 603 2010</p>
+                             Urapakkam, chengalpattu - 603 201</p>
                     
                 </li>
                 <div className='social'>

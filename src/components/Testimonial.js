@@ -2,10 +2,22 @@ import React, { Fragment } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import StarRatings from "react-star-ratings";
+import { Helmet } from "react-helmet";
 
 function Testimonial() {
   return (
     <Fragment>
+      <Helmet>
+      <meta
+        name="description"
+        content="Read what our clients say about Sri Sakthi Interiors and Timber Works. Discover testimonials from satisfied customers who love our interior design, custom furniture, modular kitchens, and timber solutions in Chennai."
+      />
+      <meta
+        name="keywords"
+        content="Sri Sakthi Interiors testimonials, customer reviews Chennai, interior design reviews, modular kitchen testimonials, custom furniture reviews, timber works reviews, Chennai satisfied customers, client feedback, home interiors reviews"
+      />
+      <title>Testimonials</title>
+      </Helmet>
       <Header />
       <section>
         <div className="about_us_main">
